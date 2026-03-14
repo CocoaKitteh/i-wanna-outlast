@@ -1,0 +1,8 @@
+/// draw_warning(x1,y1,x2,y2,font)
+draw_set1(make_color_rgb(128,0,255),0.5)
+draw_rectangle(argument0,argument1,argument2,argument3,false)
+draw_set1(c_white,1)
+draw_set2(fa_center,fa_middle)
+draw_set_font(argument4)
+draw_text((argument0+argument2)/2,(argument1+argument3)/2,"!")
+draw_set_color(c_white)

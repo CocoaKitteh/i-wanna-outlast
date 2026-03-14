@@ -1,0 +1,5 @@
+audio_music_pause()
+audio_play_single(snd("game_over.ogg"))
+instance_create(480,270,GameOver)
+instance_create(x,y,BloodEmitter)
+instance_destroy()
