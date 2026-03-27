@@ -19,4 +19,4 @@ lib_id=1
 action_id=603
 applies_to=self
 */
-if wrap then action_wrap(2) else instance_destroy()
+if wrap then screen_wrap() else instance_destroy()
