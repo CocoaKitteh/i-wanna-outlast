@@ -18,7 +18,8 @@ if a mod 3==0 begin
     s.speed=10
     s.image_alpha=0
 end
-if !audio_isplaying(snd("game.ogg")) then audio_music_play(snd("game.ogg"))
+
+if abcdefghijklmnopqrstuvwxyz==99 begin if !audio_isplaying(snd("2.ogg")) then audio_music_play(snd("2.ogg")) end else begin if !audio_isplaying(snd("game.ogg")) then audio_music_play(snd("game.ogg")) end
 #define Other_2
 /*"/*'/**//* YYD ACTION
 lib_id=1
@@ -26,6 +27,7 @@ action_id=603
 applies_to=self
 */
 global.sounds=audio_load_directory(working_directory)
+abcdefghijklmnopqrstuvwxyz=irandom(99)
 #define Other_3
 /*"/*'/**//* YYD ACTION
 lib_id=1
